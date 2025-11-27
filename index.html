@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hangman Game</title>
+
+    <link rel="stylesheet" href="HangmanStyle.css">
+    <script defer src="Project3.js"></script>
+</head>
+<body>
+
+    <div class="title">
+        <h1><strong>The Hangman Game</strong></h1>
+        <h3>Guess the hidden word — you only have 6 incorrect tries!</h3>
+    </div>
+
+    <div class="container">
+        <div id="hangman-figure"></div>
+
+        <div class="hangman-game">
+
+            <ul class="word-display"></ul>
+
+            <h4 class="guess-letter">
+                Incorrect guesses: <b><span id="wrong-count">0</span>/6</b>
+            </h4>
+
+            <div class="keyboard"></div>
+            <div class="message"></div>
+        </div>
+    </div>
+
+    <div class="stats">
+        <h2>Stats:</h2>
+        <p style="color: green;">Wins: <span id="wins">0</span></p>
+        <p style="color: red;">Losses: <span id="losses">0</span></p>
+        <p style="color: darkslateblue;">Games played: <span id="games">0</span></p>
+    </div>
+
+</body>
+</html>
