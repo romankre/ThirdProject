@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Georgia, serif;
+}
+
+.title {
+    text-align: center;
+    background-color: azure;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#hangman-figure {
+    font-family: "Courier New", monospace;
+    white-space: pre;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.word-display {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.word-display .letter {
+    display: inline-flex;
+    width: 35px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.keyboard button {
+    width: 40px;
+    height: 40px;
+    background-color: #5e63ba;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.keyboard button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.stats {
+    margin: 40px auto;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
