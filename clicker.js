@@ -174,7 +174,6 @@ window.addEventListener('DOMContentLoaded', function() {
     loadGame();
     updateUI();
     
-    // Start auto-clicker interval
     setInterval(function() {
         let totalCps = getTotalCps();
         if (totalCps > 0) {
@@ -183,3 +182,4 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     }, 1000);
 });
+
