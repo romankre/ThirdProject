@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+    <div class="header">
+        <header>
+        <h1>🍪 Cookie Clicker</h1>
+        </header>
+    </div>
+    <div class="description">
+        <h2><Strong>How To Play</Strong></h2>
+        <ol>
+            <li>Click the cookie to earn points</li>
+            <li>Use points to upgrade and earn even more cookie</li> 
+            <li>Progress is saved automatically in the browser</li>
+        </ol>
+    </div>
+    <div class="GameContainer">
+        <div class="left-container">
+            <div class="cookiecontainer">
+                <div id="cookie">🍪</div>
+            </div>
+            <div class="cookiestats">
+                <div class="cookiestat">
+                    <div class="stat-title">Cookies</div>
+                    <div class="stat-value" id="cookies">0</div>
+                </div>
+                <div class="cookiestat">
+                    <div class="stat-title">Per click</div>
+                    <div class="stat-value">1</div>
+                </div>
+                <div class="cookiestat">
+                    <div class="stat-title">Per second</div>
+                    <div class="stat-value">0</div>
+                </div>
+                <div class="cookiestat">
+                    <div class="stat-title">Auto-click</div>
+                    <div class="stat-value">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="shopcontainer">
+                <h2><strong>SHOP</strong></h2>
+                <button type="button" class="shop-button" id="bronzeButton">
+                    Bronze rank: Buy for 100 cookies
+                </button>
+                <button type="button" class="shop-button" id="silverButton">
+                    Silver rank: Buy for 250 cookies
+                </button>
+                <button type="button" class="shop-button" id="goldButton">
+                    Gold rank: Buy for 500 cookies
+                </button>
+                <button type="button" class="shop-button" id="diamondButton">
+                    Diamond rank: Buy for 1000 cookies
+                </button>
+                <div class="footer">
+                    <button type="button" class="upgrade-button" id="upgradeclicker">upgrade clicker (cost: 50)</button>
+                    <button type="button" class="upgrade-button" id="autoclicker">auto clicker (cost: 100)</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="clicker.js"></script>
+</body>
+</html>
+<!--div class="right">
+            <div class="shopcontainer">
+            <h2><strong>SHOP</strong></h2>
+            <button type="button" id="bronzeButton">Bronze rank: Buy for 100  cookies</button>
+            <button type="button" id="silverButton">Silver rank: Buy for 250 cookies</button>
+            <button type="button" id="goldButton">Gold rank: Buy for 500 cookies</button>
+            <button type="button" id="diamondButton">Diamond rank: Buy for 1000 cookies</button>
+        <div class="shopFooter">
+            <button type="button" id="upgradeClicker">Upgrade Clicker</button>
+            <br>
+            <button type="button" id="autoClicker">Buy Auto-Clicker</button>  
+        </div>
